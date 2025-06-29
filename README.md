@@ -14,25 +14,15 @@ Everything here is structured to help others (and myself) learn and re-use patte
 - Modular service/controller injection
 - Shard-aware database architecture with multiple `*gorm.DB` instances
 
-### 🌐 Real-Time Backend Concepts
-- WebSockets, Server-Sent Events (SSE), and RabbitMQ examples
+### 🌐 Real-Time Backend Concepts (upcoming)
+- WebSockets, Server-Sent Events (SSE)
 - Using Redis pub-sub for scalable notifications
-- How to integrate MQTT for IoT-style telemetry pipelines
 
 ### 🗃️ Clean Backend Architecture
-- Folder structure suggestions for Go and Node.js
+- Folder structure suggestions for Go
 - Service separation and DI patterns
 - Middleware chaining and security hooks
-
-### 🧪 Testing & CI
-- Unit testing strategies using mock interfaces
-- Overview of CI pipelines with GitHub Actions and Docker
-
-### ⚙️ Miscellaneous
-- Bash automation scripts
-- DevOps-ready Docker setup for microservices
-- Token-based authentication flows (JWT, session, etc.)
-
+- 
 ---
 
 ## 📌 Why This Repo Exists
