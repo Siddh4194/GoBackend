@@ -1,0 +1,13 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+cmd = "go build -o tmp/main.exe ."   # Build to a known path
+bin = "tmp/main.exe"                 # Correct path to binary (NO slash, NO quotes)
+include_ext = ["go"]
+exclude_dir = ["tmp"]
+delay = 1000
+
+[watch]
+extensions = ["go"]
+ignore = ["tmp"]
